@@ -1,7 +1,7 @@
 /* check if a string is palindrom e using two-pointer technique */
 
 
-
+//comlixty o(n/2)
 #include<bits/stdc++.h>
 using namespace std;
 
