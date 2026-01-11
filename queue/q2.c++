@@ -4,7 +4,7 @@
 Write a C++ program to sort the elements of a queue */
 #include<bits/stdc++.h>
 using namespace std;
-
+// Function to sort the elements of the queue
 //
 // Function to sort the elements of the queue
 //void sortQueue(queue<int>&q)
