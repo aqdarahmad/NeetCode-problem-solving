@@ -8,6 +8,10 @@
 
 
 int mybs(int tar , vector<int>&v)
+<<<<<<< HEAD
+=======
+int mybs(int tar , vector<int>v)
+>>>>>>> 644ed4143152dfaa61cb4a3d8bd1f40a129b3294
 {
 int l =0, r= v.size()-1;
 while(l<=r)
