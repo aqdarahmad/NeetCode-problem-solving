@@ -8,6 +8,7 @@
 
 
 int mybs(int tar , vector<int>&v)
+int mybs(int tar , vector<int>v)
 {
 int l =0, r= v.size()-1;
 while(l<=r)
