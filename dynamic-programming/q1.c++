@@ -32,6 +32,7 @@ int fib_tab(int n)
         dp[i]=dp[i-1] + dp[i-2];
     }
     return dp[n];
+
 }
 // more optimized approach
 int fib_tab(int n)
@@ -46,4 +47,5 @@ int fib_tab(int n)
         prev=temp;
     }
     return curr;
+
 }
