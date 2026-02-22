@@ -33,3 +33,17 @@ int fib_tab(int n)
     }
     return dp[n];
 }
+// more optimized approach
+int fib_tab(int n)
+{
+  
+   int prev=0;
+   int curr=1;
+   int temp=0;
+    for(int i=2;i<=n;i++)
+    {   temp=curr; 
+        curr=prev+curr;
+        prev=temp;
+    }
+    return curr;
+}
